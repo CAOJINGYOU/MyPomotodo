@@ -1,0 +1,19 @@
+//番茄相关
+LONGLONG		lTomatoTime;			//番茄时长
+LONGLONG		lRestTime;				//休息时长
+LONGLONG		lLongRestTime;			//长休息时长
+UINT			uLongRestInterval;		//长休息间隔
+CString			strWorkSound;			//工作音效
+CString			strThatSound;			//提示音效
+
+//常用
+BOOL bDisplaySystemNotifications;		//显示系统通知
+BOOL bPlayTick;							//播放滴答声
+BOOL bPlayPromptSound;					//播放提示音效
+BOOL bRunningWithSystem;				//系统启动时运行番茄土豆
+BOOL bFromSystemTray;					//脱离系统托盘
+BOOL bAutoAdjustSize;					//自动调整窗口尺寸
+
+//其他
+UINT uState;								//工作还是休息状态，0为停止，1为工作，2为休息
+CString			strWorkTime;			//上次工作或休息开始时间
